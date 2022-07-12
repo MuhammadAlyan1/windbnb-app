@@ -8,7 +8,7 @@ import { staysContext } from "../../App";
 import "./GuestsChoice.css";
 
 const GuestsChoice = () => {
-  const { state, dispatch } = useContext(staysContext);
+  const { dispatch } = useContext(staysContext);
 
   const [adultsAmount, setAdultsAmount] = useState(0);
   const [childrenAmount, setChildrenAmount] = useState(0);

@@ -2,7 +2,7 @@
 import { MdLocationOn } from "react-icons/md";
 
 // Hooks
-import { useState, useContext } from "react";
+import { useContext } from "react";
 import { staysContext } from "../../App";
 
 import React from "react";
@@ -11,7 +11,7 @@ import React from "react";
 import "./OpenLocationModal.css";
 
 const OpenLocationModal = () => {
-  const { state, dispatch } = useContext(staysContext);
+  const { dispatch } = useContext(staysContext);
 
   return (
     <div className="location-choice">
