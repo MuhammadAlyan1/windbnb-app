@@ -1,0 +1,72 @@
+/* 
+================
+searchBar
+================
+*/
+
+.searchBar {
+  max-width: 290px;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+  padding: 0rem 1rem;
+}
+
+/* 
+=============
+location-div
+=============
+*/
+
+.location-div {
+  padding: 0.5rem 0rem;
+}
+
+.location-placeholder {
+  font-size: 0.625rem;
+}
+
+.location-name {
+  font-size: 0.875rem;
+  color: var(--clr-main-heading);
+  font-weight: 400;
+}
+
+/* 
+=============
+guests-div
+=============
+*/
+
+.guests-div {
+  padding: 0.5rem 0rem;
+}
+
+.guests-placeholder {
+  font-size: 0.625rem;
+}
+
+.guests-amount {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--clr-guests);
+}
+
+/* 
+===========
+search
+===========
+*/
+
+.search {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--clr-star);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.2rem;
+}

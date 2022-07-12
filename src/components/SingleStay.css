@@ -1,0 +1,110 @@
+/* 
+==================
+SingleStay
+==================
+*/
+
+.SingleStay {
+  /* ===================================================================== */
+  /* ===================================================================== */
+  /* ===================================================================== */
+  /* ===================================================================== */
+  /* =====================================================================
+  remove this
+  */
+  /* max-width: 400px; */
+  flex-basis: 400px;
+}
+
+/* 
+===============
+image-div
+===============
+*/
+
+.SingleStay .image-div {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.SingleStay .image-div img {
+  /* need fixed width and height for object position to work */
+  width: 400px;
+  height: 270px;
+  display: block;
+}
+
+/* 
+===============
+stay-header
+===============
+*/
+
+.stay-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.8rem 0rem;
+}
+
+.superhost {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  border-radius: 100px;
+  outline: 1px solid var(--clr-superhost-border);
+}
+
+.stay-type {
+  font-size: 0.875rem;
+  color: var(--clr-stay-type);
+}
+
+.stay-rating {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--clr-superhost-border);
+  display: flex;
+  gap: 0.2rem;
+}
+
+.star-icon {
+  font-size: 1rem;
+  color: var(--clr-star);
+  align-self: center;
+}
+
+/* 
+=================
+title-div
+=================
+*/
+
+.stay-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--clr-main-heading);
+}
+
+/* 
+=======================
+mobile layout
+=======================
+*/
+
+@media (max-width: 450px) {
+  /* image-div */
+
+  .SingleStay {
+    flex-basis: 290px;
+  }
+
+  .SingleStay .image-div {
+    width: 290px;
+    height: 180px;
+  }
+}
