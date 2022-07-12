@@ -1,0 +1,133 @@
+/* 
+========================
+opened-modal-container
+========================
+*/
+
+.opened-modal-container {
+  height: 460px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+
+  border-radius: 0.5rem;
+}
+
+/* 
+===========================
+location-placeholder
+===========================
+*/
+
+.location-placeholder {
+  font-size: 0.625rem;
+}
+
+.location-name {
+  font-size: 0.875rem;
+  color: var(--clr-main-heading);
+  font-weight: 400;
+}
+
+/* 
+=========================
+guests-placeholder
+=========================
+*/
+
+.guests-placeholder {
+  font-size: 0.625rem;
+}
+
+.guests-amount {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--clr-main-heading);
+}
+
+/* 
+===================
+search
+===================
+
+*/
+.opened-searchBar .search button {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: white;
+  background-color: var(--clr-star);
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+@media (min-width: 701px) {
+  /* opened-searchBar */
+  .opened-searchBar {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .opened-searchBar > * {
+    flex-basis: 30%;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* location-div */
+  .opened-searchBar .location-div {
+    padding: 0.5rem 1rem;
+  }
+
+  /* guests-div */
+  .opened-searchBar .guests-div {
+    padding: 0.5rem 1rem;
+  }
+
+  /* search */
+  .opened-searchBar .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 700px) {
+  /* opened-searchBar */
+  .opened-searchBar {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+  }
+
+  .opened-searchBar > * {
+    margin-bottom: 1rem;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  /* location-div */
+  .opened-searchBar .location-div {
+    padding: 0.5rem 1rem;
+  }
+
+  /* guests-div */
+  .opened-searchBar .guests-div {
+    padding: 0.5rem 1rem;
+  }
+
+  .opened-searchBar .search button {
+    margin-inline: auto;
+  }
+}

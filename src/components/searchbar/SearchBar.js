@@ -1,36 +1,38 @@
 import React from "react";
 
-// icons
-import { GoSearch } from "react-icons/go";
-import { MdLocationOn } from "react-icons/md";
-
 // Hooks
-import { useState, useContext } from "react";
+import { useContext } from "react";
 import { staysContext } from "../../App";
 
 // components
 import ClosedModal from "./ClosedModal";
 import OpenedModal from "./OpenedModal";
-import OpenLocationModal from "./OpenLocationModal";
 
 // css
 import "./SearchBar.css";
-import GuestsChoice from "./GuestsChoice";
+
+// images
+import Logo from "../../assets/logo.svg";
 
 const SearchBar = () => {
-  const { state, dispatch } = useContext(staysContext);
+  const { state } = useContext(staysContext);
+
+  console.log("isModalShowing: ", state.isModalShowing);
 
   if (!state.isModalShowing) {
-    <ClosedModal />;
+    return (
+      <nav className="navbar">
+        <div className="image-div">
+          <img src={Logo} alt="logo" />
+        </div>
+        <ClosedModal />
+      </nav>
+    );
   }
 
   return (
     <section className="modal-container">
       <OpenedModal />
-
-      {state.isLocationOpen && <OpenLocationModal />}
-
-      {state.isGuestsOpen && <GuestsChoice />}
     </section>
   );
 };

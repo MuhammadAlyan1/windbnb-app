@@ -1,11 +1,12 @@
 import React from "react";
+
+// components
 import SingleStay from "./SingleStay";
 
 // css
 import "./StaysList.css";
 
 // data
-// import data from "../stays.json";
 import { staysContext } from "../App";
 
 // Hooks
@@ -15,8 +16,6 @@ const StaysList = () => {
   const {
     state: { filteredStays },
   } = useContext(staysContext);
-
-  console.log(filteredStays);
 
   return (
     <section className="staysList">

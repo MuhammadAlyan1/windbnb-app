@@ -1,0 +1,122 @@
+/* 
+=================
+guests-choice
+=================
+*/
+
+.guests-choice {
+  font-size: 0.875rem;
+  padding-inline: 2rem;
+}
+
+/* 
+==================
+adult-counter
+==================
+*/
+
+.adult-counter {
+  margin-bottom: 1rem;
+}
+
+.adult-title {
+  color: var(--clr-main-heading);
+  font-weight: 700;
+}
+
+.adult-description {
+  color: var(--clr-superhost-border);
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+/*
+======================
+adult-counter-div
+======================
+*/
+.adult-counter-div {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adult-counter-div button {
+  font-size: 1rem;
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  outline: 1px solid var(--clr-guests);
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+/* 
+==================
+children-counter
+==================
+*/
+
+.children-counter {
+  margin-bottom: 1rem;
+}
+
+.children-title {
+  color: var(--clr-main-heading);
+  font-weight: 700;
+}
+
+.children-description {
+  color: var(--clr-superhost-border);
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+/*
+======================
+children-counter-div
+======================
+*/
+
+.children-counter-div {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.children-counter-div button {
+  font-size: 1rem;
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  outline: 1px solid var(--clr-guests);
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+/* 
+mobile-layout
+
+*/
+
+@media (max-width: 700px) {
+  /* guests-choice */
+  .guests-choice {
+    width: fit-content;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 701px) {
+  /* guests-choice */
+  .guests-choice {
+    width: fit-content;
+    margin-inline: auto;
+  }
+}

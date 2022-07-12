@@ -7,6 +7,9 @@ import { staysContext } from "../../App";
 
 import React from "react";
 
+// css
+import "./OpenLocationModal.css";
+
 const OpenLocationModal = () => {
   const { state, dispatch } = useContext(staysContext);
 

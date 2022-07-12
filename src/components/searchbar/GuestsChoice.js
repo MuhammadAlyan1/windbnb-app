@@ -4,6 +4,9 @@ import React from "react";
 import { useState, useEffect, useContext } from "react";
 import { staysContext } from "../../App";
 
+// css
+import "./GuestsChoice.css";
+
 const GuestsChoice = () => {
   const { state, dispatch } = useContext(staysContext);
 
@@ -39,17 +42,17 @@ const GuestsChoice = () => {
         <p className="adult-description">Ages 13 or above</p>
         <div className="adult-counter-div">
           <button onClick={decreaseAdultsAmount}>-</button>
-          {adultsAmount}
+          <p>{adultsAmount}</p>
           <button onClick={increaseAdultsAmount}>+</button>
         </div>
       </div>
 
       <div className="children-counter">
-        <p className="adult-title">Children</p>
-        <p className="adult-description">Ages 2 - 12</p>
+        <p className="children-title">Children</p>
+        <p className="children-description">Ages 2 - 12</p>
         <div className="children-counter-div">
           <button onClick={decreaseChildrenAmount}>-</button>
-          {childrenAmount}
+          <p>{childrenAmount}</p>
           <button onClick={increaseChildrenAmount}>+</button>
         </div>
       </div>

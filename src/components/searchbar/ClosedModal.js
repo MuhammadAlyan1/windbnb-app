@@ -7,6 +7,9 @@ import { staysContext } from "../../App";
 // icons
 import { ImSearch } from "react-icons/im";
 
+// css
+import "./ClosedModal.css";
+
 const ClosedModal = () => {
   const { state, dispatch } = useContext(staysContext);
 
@@ -16,7 +19,7 @@ const ClosedModal = () => {
   }
 
   return (
-    <div className="searchBar">
+    <div className="closed-searchBar">
       <div
         onClick={() => dispatch({ type: "OPEN_LOCATION" })}
         className="location-div"
