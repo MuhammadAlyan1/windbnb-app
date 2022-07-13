@@ -1,0 +1,202 @@
+/* 
+=======================
+detailedSingleStay
+=======================
+*/
+
+.detailedSingleStay {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+  margin-inline: auto;
+}
+
+/* 
+======================
+content-div
+======================
+*/
+
+.detailedSingleStay .content-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+/* 
+======================
+about-stay-div
+======================
+*/
+
+.about-stay-div .stay-superhost {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--clr-superhost-border);
+  padding: 0.3rem 0.5rem;
+  width: fit-content;
+  border-radius: 0.75rem;
+  outline: 1px solid var(--clr-superhost-border);
+}
+
+.about-stay-div .stay-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--clr-main-heading);
+  margin-bottom: 0.5rem;
+}
+
+.about-stay-div .stay-location {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--clr-superhost-border);
+  margin-bottom: 0.5rem;
+}
+
+.about-stay-div .stay-type {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--clr-superhost-border);
+  margin-bottom: 0.5rem;
+}
+
+/* 
+======================
+stay-stats
+======================
+*/
+
+/* stay-rating-div */
+
+.stay-stats .stay-rating-div {
+  font-size: 1.1rem;
+  color: var(--clr-star);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.stay-stats .stay-rating-div p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--clr-main-heading);
+}
+
+/* stay-guests-div */
+
+.stay-stats .stay-guests-div {
+  font-size: 1.1rem;
+  color: var(--clr-star);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.stay-stats .stay-guests-div p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--clr-main-heading);
+}
+
+/* stay-bed-div */
+
+.stay-stats .stay-bed-div {
+  font-size: 1.1rem;
+  color: var(--clr-star);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.stay-stats .stay-bed-div p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--clr-main-heading);
+}
+
+/* 
+================================================
+Multiple media queries because some images are
+in portrait mode. Need fixed height to use 
+object fit
+================================================
+*/
+
+/* desktop layout */
+
+@media (min-width: 900px) {
+  /* detailedSingleStay */
+  .detailedSingleStay {
+    /* background-color: red; */
+    max-width: 900px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  /* image-div */
+
+  .detailedSingleStay .image-div img {
+    width: 900px;
+    height: 510px;
+    object-fit: cover;
+  }
+}
+
+/* tablet layout */
+
+@media (max-width: 899px) {
+  /* detailedSingleStay */
+  .detailedSingleStay {
+    max-width: 650px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  /* image-div */
+
+  .detailedSingleStay .image-div img {
+    width: 650px;
+    height: 370px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 665px) {
+  /* detailedSingleStay */
+  .detailedSingleStay {
+    max-width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  /* image-div */
+
+  .detailedSingleStay .image-div img {
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+/* mobile layout */
+
+@media (max-width: 450px) {
+  /* detailedSingleStay */
+  .detailedSingleStay {
+    max-width: 290px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  /* image-div */
+
+  .detailedSingleStay .image-div img {
+    width: 290px;
+    height: 140px;
+    object-fit: cover;
+  }
+}

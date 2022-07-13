@@ -1,5 +1,6 @@
 [
   {
+    "id": "e9f1bf1c-02a7-11ed-b939-0242ac120002",
     "city": "Helsinki",
     "country": "Finland",
     "superHost": false,
@@ -11,6 +12,7 @@
     "photo": "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=2255&q=80"
   },
   {
+    "id": "e9f1c46c-02a7-11ed-b939-0242ac120002",
     "city": "Turku",
     "country": "Finland",
     "superHost": false,
@@ -22,6 +24,7 @@
     "photo": "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
   },
   {
+    "id": "e9f1c5a2-02a7-11ed-b939-0242ac120002",
     "city": "Helsinki",
     "country": "Finland",
     "superHost": true,
@@ -33,6 +36,7 @@
     "photo": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
   },
   {
+    "id": "e9f1c6c4-02a7-11ed-b939-0242ac120002",
     "city": "Helsinki",
     "country": "Finland",
     "superHost": false,
@@ -40,10 +44,11 @@
     "rating": 4.48,
     "maxGuests": 3,
     "type": "Entire apartment",
-    "beds": null,
+    "beds": 2,
     "photo": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
   },
   {
+    "id": "e9f1cb92-02a7-11ed-b939-0242ac120002",
     "city": "Turku",
     "country": "Finland",
     "superHost": true,
@@ -51,10 +56,11 @@
     "rating": 4.75,
     "maxGuests": 9,
     "type": "Entire house",
-    "beds": null,
+    "beds": 4,
     "photo": "https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2249&q=80"
   },
   {
+    "id": "e9f1ccc8-02a7-11ed-b939-0242ac120002",
     "city": "Vaasa",
     "country": "Finland",
     "superHost": true,
@@ -62,10 +68,11 @@
     "rating": 4.95,
     "maxGuests": 6,
     "type": "Entire house",
-    "beds": null,
+    "beds": 3,
     "photo": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
   },
   {
+    "id": "e9f1cdea-02a7-11ed-b939-0242ac120002",
     "city": "Vaasa",
     "country": "Finland",
     "superHost": false,
@@ -73,10 +80,11 @@
     "rating": 4.68,
     "maxGuests": 2,
     "type": "Private room",
-    "beds": null,
+    "beds": 1,
     "photo": "https://images.unsplash.com/photo-1505693314120-0d443867891c?ixlib=rb-1.2.1&auto=format&fit=crop&w=2591&q=80"
   },
   {
+    "id": "e9f1cf0c-02a7-11ed-b939-0242ac120002",
     "city": "Oulu",
     "country": "Finland",
     "superHost": false,
@@ -88,6 +96,7 @@
     "photo": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
   },
   {
+    "id": "e9f1d038-02a7-11ed-b939-0242ac120002",
     "city": "Oulu",
     "country": "Finland",
     "superHost": false,
@@ -99,6 +108,7 @@
     "photo": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2255&q=80"
   },
   {
+    "id": "e9f1d146-02a7-11ed-b939-0242ac120002",
     "city": "Oulu",
     "country": "Finland",
     "superHost": true,
@@ -106,10 +116,11 @@
     "rating": 4.38,
     "maxGuests": 4,
     "type": "Entire house",
-    "beds": null,
+    "beds": 2,
     "photo": "https://images.unsplash.com/photo-1522156373667-4c7234bbd804?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=930&q=80"
   },
   {
+    "id": "e9f1d25e-02a7-11ed-b939-0242ac120002",
     "city": "Vaasa",
     "country": "Finland",
     "superHost": false,
@@ -121,6 +132,7 @@
     "photo": "https://images.unsplash.com/photo-1494203484021-3c454daf695d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
   },
   {
+    "id": "e9f1d600-02a7-11ed-b939-0242ac120002",
     "city": "Helsinki",
     "country": "Finland",
     "superHost": false,
@@ -128,10 +140,11 @@
     "rating": 4.63,
     "maxGuests": 10,
     "type": "Entire house",
-    "beds": null,
+    "beds": 5,
     "photo": "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
   },
   {
+    "id": "e9f1d736-02a7-11ed-b939-0242ac120002",
     "city": "Turku",
     "country": "Finland",
     "superHost": false,
@@ -143,6 +156,7 @@
     "photo": "https://images.unsplash.com/photo-1519643381401-22c77e60520e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjE3MzYxfQ&auto=format&fit=crop&w=2253&q=80"
   },
   {
+    "id": "e9f1d84e-02a7-11ed-b939-0242ac120002",
     "city": "Turku",
     "country": "Finland",
     "superHost": true,

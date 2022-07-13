@@ -37,6 +37,10 @@ export function reducer(state, action) {
       };
 
     case "SEARCH":
+      if (state.location === "Finland") {
+        return state;
+      }
+
       const staysInCurrentLocation = state.stays.filter(
         (stay) => stay.city === state.location
       );

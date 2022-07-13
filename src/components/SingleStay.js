@@ -1,16 +1,20 @@
 import React from "react";
 
+// Hooks
+import { useNavigate } from "react-router-dom";
+
 // icon
 import { AiFillStar } from "react-icons/ai";
 
 // css
 import "./SingleStay.css";
 
-const SingleStay = ({ superHost, title, rating, type, beds, photo }) => {
-  if (title == undefined) return;
+const SingleStay = (props) => {
+  const { id, superHost, title, rating, type, beds, photo } = props;
+  const navigate = useNavigate();
 
   return (
-    <article className="SingleStay">
+    <article onClick={() => navigate(`/${id}`)} className="SingleStay">
       <div className="image-div">
         <img src={photo} alt={title} />
       </div>
