@@ -17,10 +17,11 @@ export const staysContext = createContext(null);
 function App() {
   const default_value = {
     stays: [...data],
-    filteredStays: [...data.filter((stay) => stay.city === "Helsinki")],
+    // filteredStays: [...data.filter((stay) => stay.city === "Helsinki")],
+    filteredStays: [...data],
     isModalShowing: false,
     guestsAmount: 0,
-    location: "Helsinki",
+    location: "Finland",
     isLocationOpen: false,
     isGuestsOpen: false,
   };

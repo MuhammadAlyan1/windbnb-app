@@ -24,7 +24,11 @@ const ClosedModal = () => {
         onClick={() => dispatch({ type: "OPEN_LOCATION" })}
         className="location-div"
       >
-        <p className="location-name">{state.location}, Finland</p>
+        {state.location === "Finland" ? (
+          <p className="location-name">Finland</p>
+        ) : (
+          <p className="location-name">{state.location}, Finland</p>
+        )}
       </div>
 
       <div

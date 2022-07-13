@@ -13,16 +13,21 @@ import { staysContext } from "../App";
 import { useContext } from "react";
 
 const StaysList = () => {
-  const {
-    state: { filteredStays },
-  } = useContext(staysContext);
+  const { state } = useContext(staysContext);
+
+  const { filteredStays } = state;
 
   return (
-    <section className="staysList">
-      {filteredStays.map((stay, index) => {
-        return <SingleStay key={index} {...stay} />;
-      })}
-      <SingleStay />
+    <section className="stays-container">
+      <div className="stays-location-amount">
+        <h3 className="stays-in-location-heading">stays in {state.location}</h3>
+        <p className="stays-amount-heading">{filteredStays.length} stays</p>
+      </div>
+      <section className="staysList">
+        {filteredStays.map((stay, index) => {
+          return <SingleStay key={index} {...stay} />;
+        })}
+      </section>
     </section>
   );
 };

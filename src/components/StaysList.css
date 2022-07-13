@@ -1,13 +1,45 @@
 /* 
+=================
+stays-container
+=================
+*/
+
+.stays-container {
+  padding: 1rem;
+  max-width: 1300px;
+  margin-inline: auto;
+}
+
+/* 
+=====================
+stays-location-amount
+=====================
+*/
+.stays-location-amount {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-inline: 1rem;
+}
+
+.stays-location-amount h3 {
+  color: var(--clr-main-heading);
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.stays-location-amount p {
+  color: var(--clr-superhost-border);
+  font-size: 0.875rem;
+}
+
+/* 
 ================
 staysList
 ================
 */
 
 .staysList {
-  padding: 1rem;
-  max-width: 1300px;
-  margin-inline: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
