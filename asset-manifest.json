@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/windbnb-app/static/css/main.80517540.css",
+    "main.js": "/windbnb-app/static/js/main.2ab37ebb.js",
+    "static/media/logo.svg": "/windbnb-app/static/media/logo.beef9462a899fe60cb52edfd446e26ef.svg",
+    "index.html": "/windbnb-app/index.html",
+    "main.80517540.css.map": "/windbnb-app/static/css/main.80517540.css.map",
+    "main.2ab37ebb.js.map": "/windbnb-app/static/js/main.2ab37ebb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80517540.css",
+    "static/js/main.2ab37ebb.js"
+  ]
+}
