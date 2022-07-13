@@ -36,7 +36,7 @@ function App() {
       </staysContext.Provider>
       <Routes>
         <Route
-          path="/"
+          path="/windbnb-app"
           element={
             <staysContext.Provider value={{ state, dispatch }}>
               <StaysList />
