@@ -6,6 +6,7 @@ SingleStay
 
 .SingleStay {
   flex-basis: 400px;
+  cursor: pointer;
 }
 
 /* 
